@@ -1,0 +1,70 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#show-all-users-btn:hover {
+    background-color: #03f447;
+}
+#disconnect:hover {
+    background-color: #f40303;
+}
+
+
+#user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#user-list th, #user-list td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#user-list th {
+    background-color: #f2f2f2;
+}
+
+#user-list tr:hover {
+    background-color: #f2f2f2;
+}
+
+.modify-user-btn, .delete-user-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modify-user-btn:hover {
+    background-color: #0fb300;
+}
+.delete-user-btn:hover {
+    background-color: #ff0000;
+}
